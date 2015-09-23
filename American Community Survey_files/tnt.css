@@ -1,0 +1,70 @@
+/* GM 02.02.2009 */
+/* TNT global styles to overide basic reset rules provided in reset.css */
+/* No structural rules in this file; container rules are located in tnt_global_structure.css */
+
+body {
+    font: 1em verdana,helvetica,arial,sans-serif;
+    background-color:#fff;
+}
+
+h1 {font-size:1.5em;}
+h2 {font-size:1.4em;}
+h3 {font-size:1.3em;}
+h4 {font-size:1.2em;}
+h5 {font-size:1.1em;}
+
+h1, h2, h3, h4, h5 {
+    margin:.5em 0;
+    letter-spacing:.1em;
+}
+
+p, div, fieldset, dl, blockquote {
+    line-height:1.4em;
+    margin:0.5em 0 0.5em 0;
+}
+
+ul, ol {margin:0.5em 0 0.5em 1em;}
+
+ul {list-style:disc;}
+
+ol {
+    list-style:decimal;
+    margin-left:1.5em;
+}
+
+legend {display:none;}
+
+dt,strong {font-weight:bold;}
+dd {margin-left:1em;}
+small {font-size:0.8em;}
+em {font-style:oblique;}
+
+#submit_button { text-align: center; }
+
+/******************************/
+/* Paradata CSS               */
+#pdfib_dnu, #pdlib_dnu {
+  display: none;
+}
+/******************************/
+
+/******************************/
+/* 508 Screen Reader Label    */
+.screenreader {
+  position: absolute;
+  top: 0;
+  left: -9999px;
+}
+/******************************/
+
+/******************************/
+/* BOC Warning CSS               */
+.boc_warning_block {
+  background-color: #ffffff;
+  font-size: 0.9em;
+  width: 80%;
+  border:1px solid black;
+  margin: 0 auto;
+  padding: 4px;
+}
+/******************************/
